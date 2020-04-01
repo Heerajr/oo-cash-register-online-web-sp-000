@@ -13,6 +13,10 @@ class CashRegister
     @items << title
   end
 
+  def add_2nd_item( title,price,total=1)
+    self.total= price * total
+  end
+
 
 
 
