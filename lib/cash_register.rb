@@ -14,7 +14,11 @@ class CashRegister
 
   end
 
-  def self.apply_discount
+  def apply_discount
+    if discount != 0
+      self.total = total*(100.0)
+      
+    end
 
 
   end
