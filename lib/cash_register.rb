@@ -16,7 +16,7 @@ class CashRegister
 
   def add_item_2(title, price, quantity = 1)
    self.total = price * quantity
- 
+
   def apply_discount
     if discount != 0
     self.total = (total * ((100.0 - discount.to_f)/100)).to_i
