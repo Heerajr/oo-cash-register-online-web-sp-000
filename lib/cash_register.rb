@@ -13,7 +13,7 @@ class CashRegister
     @items << title
       end
 
-      self.transaction = price * total
+    self.transaction = price * total
     end
   end
 
