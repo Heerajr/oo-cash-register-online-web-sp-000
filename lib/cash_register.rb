@@ -14,8 +14,9 @@ class CashRegister
     end
 
     self.transaction = price * total
-
   end
+
+  
 
 
 
