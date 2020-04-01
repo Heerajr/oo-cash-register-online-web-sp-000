@@ -11,7 +11,10 @@ class CashRegister
   def add_item(title,price,total= 1)
     self.total = price * total
     @items << title
+      end
 
+      self.transaction = price * total
+    end
   end
 
 
